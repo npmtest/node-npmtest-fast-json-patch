@@ -1,6 +1,6 @@
 # npmtest-fast-json-patch
 
-#### test coverage for  [fast-json-patch (v1.1.8)](https://github.com/Starcounter-Jack/JSON-Patch)  [![npm package](https://img.shields.io/npm/v/npmtest-fast-json-patch.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-fast-json-patch) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-fast-json-patch.svg)](https://travis-ci.org/npmtest/node-npmtest-fast-json-patch)
+#### basic test coverage for  [fast-json-patch (v1.1.9)](https://github.com/Starcounter-Jack/JSON-Patch)  [![npm package](https://img.shields.io/npm/v/npmtest-fast-json-patch.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-fast-json-patch) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-fast-json-patch.svg)](https://travis-ci.org/npmtest/node-npmtest-fast-json-patch)
 
 #### Fast implementation of JSON-Patch (RFC-6902) with duplex (observe changes) capabilities
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-fast-json-patch/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-fast-json-patch/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-fast-json-patch/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-fast-json-patch/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-fast-json-patch/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-fast-json-patch/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-fast-json-patch/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-fast-json-patch/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-fast-json-patch/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-fast-json-patch/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-fast-json-patch/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-fast-json-patch/build/coverage.html/index.html)
 
@@ -58,13 +58,13 @@
     },
     "directories": {},
     "dist": {
-        "shasum": "8db58c9d12c3ff9c23456ee812cc29fac722b772",
-        "tarball": "https://registry.npmjs.org/fast-json-patch/-/fast-json-patch-1.1.8.tgz"
+        "shasum": "1b3a864f838571b71d6a3aa7007287583b70cc5f",
+        "tarball": "https://registry.npmjs.org/fast-json-patch/-/fast-json-patch-1.1.9.tgz"
     },
     "engines": {
         "node": ">= 0.4.0"
     },
-    "gitHead": "4a788782e209723ff8d1b31f978eb824eb9ecf57",
+    "gitHead": "fe07f88850af1ece9a1fc673198b233591258aac",
     "homepage": "https://github.com/Starcounter-Jack/JSON-Patch",
     "keywords": [
         "json",
@@ -101,7 +101,8 @@
         "uglify": "grunt uglify"
     },
     "typings": "src/json-patch-duplex.d.ts",
-    "version": "1.1.8"
+    "version": "1.1.9",
+    "bin": {}
 }
 ```
 
